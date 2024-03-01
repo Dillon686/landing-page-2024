@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -9,6 +14,12 @@ body{
     flex-direction: column;
     align-items: center;
     padding-bottom: 130px;
+    padding-top: 20px;
+}
+
+.header-container p {
+    padding-bottom: 10px;
+}
 
 .links{
     display: flex;
@@ -19,6 +30,7 @@ body{
 .links ul{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .hero {
@@ -27,16 +39,21 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    flex: 1;
 }
 
-.hero, li, p {
+.hero img{
+    flex: .5;
+}
+
+.hero, li {
     color: #E5E7EB;
     font-size: 18px;
     list-style-type: none;
 }
 
 .hero-content{
-    margin-right: 100px;
+    width: 500px;
 }
 
 h1{
@@ -51,14 +68,48 @@ h2 {
     color: #1F2937;
 }
 
+
+
 .links p {
     font-size: 24px;
     color: #F9FAF8;
 }
 
+.content-container{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 150px 0;
+    align-items: center;
+}
+
+.content-container h2{
+    margin-bottom: 40px;
+}
+
 .content-container, .footer-container{
     background-color: #F9FAF8;
 }
+
+.veggie-container{
+    display: flex;
+    gap: 100px;
+}
+
+.veggies{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.veggies img{
+    width: 200px;
+}
+
 
 .quote-container{
     background-color: #E5E7EB;
@@ -73,6 +124,11 @@ h2 {
     background-color: #3882F6;
 }
 
-.sign-up{
-
+button {
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
+
