@@ -5,11 +5,38 @@ body{
 
 .header-container{
     background-color: #1F2937;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
 }
 
-.hero li {
+.links ul{
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    align-self: center;
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.hero, li, p {
     color: #E5E7EB;
     font-size: 18px;
+    list-style-type: none;
+}
+
+.hero-content{
+    margin-right: 100px;
 }
 
 h1{
@@ -24,13 +51,13 @@ h2 {
     color: #1F2937;
 }
 
-.hero p {
+.links p {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.content-container{
-
+.content-container, .footer-container{
+    background-color: #F9FAF8;
 }
 
 .quote-container{
@@ -41,9 +68,6 @@ h2 {
     font-weight: lighter;
 }
 
-.footer-container{
-
-}
 
 .sign-up, button{
     background-color: #3882F6;
