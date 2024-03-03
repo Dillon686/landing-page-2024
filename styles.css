@@ -10,7 +10,7 @@ body{
 }
 
 .header-container{
-    background-color: #1F2937;
+    background-color: #0e400e;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +103,7 @@ h2 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 160px;
     flex-wrap: wrap;
 }
@@ -111,13 +111,14 @@ h2 {
 .veggies img{
     width: 160px;
     height: 160px;
-    border: green solid thick;
+    border: #0e400e solid thick;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .veggies p {
     text-align: center;
+    
 }
 
 
@@ -155,15 +156,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    background-color: #0e400e;
 }
 
 .sign-up h3, .sign-up p{
     color: white;
     font-size: 20px;
-}
-
-.sign-up, button{
-    background-color: #3882F6;
 }
 
 button {
@@ -172,5 +170,7 @@ button {
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
+    border: white thin solid;
+    background-color: #400E40;
 }
 
